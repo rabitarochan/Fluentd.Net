@@ -50,6 +50,7 @@
     <Compile Include="IEventStream.cs" />
     <Compile Include="IFluentdContext.cs" />
     <Compile Include="IInputPlugin.cs" />
+    <Compile Include="ILogger.cs" />
     <Compile Include="InputPluginAttribute.cs" />
     <Compile Include="IOutputPlugin.cs" />
     <Compile Include="IPluginMetadata.cs" />

@@ -32,7 +32,11 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="NLog">
+      <HintPath>..\..\packages\NLog.2.1.0\lib\net45\NLog.dll</HintPath>
+    </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.Composition" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
@@ -41,13 +45,25 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="ArrayEventStream.cs" />
     <Compile Include="Config\ConfigParser.cs" />
     <Compile Include="Config\Element.cs" />
+    <Compile Include="Engine.cs" />
+    <Compile Include="FinishStatus.cs" />
+    <Compile Include="GlobMatchPattern.cs" />
+    <Compile Include="IMatchPattern.cs" />
+    <Compile Include="Logger.cs" />
+    <Compile Include="Match.cs" />
+    <Compile Include="MultiEventStream.cs" />
+    <Compile Include="OneEventStream.cs" />
+    <Compile Include="OrMatchPattern.cs" />
+    <Compile Include="PluginFactory.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+    <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Fluentd.Net.PluginLib\Fluentd.Net.PluginLib.csproj">
