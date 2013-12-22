@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{752D3671-E39A-4D6C-AD28-CD7A277A93E1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluentd.Net.PluginLib", "src\Fluentd.Net.PluginLib\Fluentd.Net.PluginLib.csproj", "{B7840C18-B536-49D7-A4E8-C3753BD028D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fluentd.Net", "src\Fluentd.Net\Fluentd.Net.csproj", "{ABDB023F-452B-4371-A6A8-8FF6B6EA1856}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B7840C18-B536-49D7-A4E8-C3753BD028D9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7840C18-B536-49D7-A4E8-C3753BD028D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7840C18-B536-49D7-A4E8-C3753BD028D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7840C18-B536-49D7-A4E8-C3753BD028D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ABDB023F-452B-4371-A6A8-8FF6B6EA1856}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ABDB023F-452B-4371-A6A8-8FF6B6EA1856}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ABDB023F-452B-4371-A6A8-8FF6B6EA1856}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ABDB023F-452B-4371-A6A8-8FF6B6EA1856}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B7840C18-B536-49D7-A4E8-C3753BD028D9} = {752D3671-E39A-4D6C-AD28-CD7A277A93E1}
+		{ABDB023F-452B-4371-A6A8-8FF6B6EA1856} = {752D3671-E39A-4D6C-AD28-CD7A277A93E1}
+	EndGlobalSection
+EndGlobal
